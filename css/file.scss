@@ -1,0 +1,273 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bree Serif',serif;
+    a{
+    text-decoration: none;
+    text-transform: uppercase;
+     }
+    #sajt {
+        width: 100%;
+        height: 100%;
+        #belo{
+            height: 100%;
+            width: 75%;
+            float: right;
+            .isto{
+                width: 100%;
+                height: 48Vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 1px solid #6f2f14;
+                margin-bottom: 3.6Vw;
+                .container{
+                    width: 90%;
+                    height: auto;
+                    #tekst{
+                        #ime{
+                            width: 80%;
+                            height: 12.1Vw;
+                            p{
+                                color: black;
+                                text-transform: uppercase;
+                                font-size: 5Vw;
+                            }
+                            }
+                        #podaci {
+                            p{
+                                color: black;
+                                text-transform: uppercase;
+                                font-size: 1.8Vw;
+                                span{
+                                    color: #cf897a;
+                                }
+                                a {
+                                    span
+                                    {
+                                        &:hover
+                                            {
+                                                color: #6f2f14;
+                                                text-decoration: underline;
+                                            }
+                                     }
+                                    }
+                               }
+                            }
+                            }
+                            #slika {
+                                img
+                                {
+                                    display: none;
+                                }
+                                }
+                            #text {
+                                #podaci
+                                {
+                                    width: 100%;
+                                    height: 7.3Vw;
+                                }
+                            }
+                            .text {
+                                width: 100%;
+                                height: auto;
+                                margin-bottom: 6Vw;
+                                h1
+                                {
+                                    text-transform: uppercase;
+                                    font-size: 3.66Vw;
+                                }
+                                .heading {
+                                    width: 70%;
+                                    float: left;
+                                    height: auto;
+                                    margin-bottom: 0;
+                                    h3
+                                    {
+                                        text-transform: uppercase;
+                                        font-size: 1.8Vw;
+                                        margin-bottom: 1.8Vw;
+                                    }
+                                    p {
+                                        font-size: 1.46Vw;
+                                        font-weight: lighter;
+                                        margin-left: 5%;
+                                    }
+
+                                }
+                                .date {
+                                    float: right;
+                                    text-align: center;
+                                    font-size: 1.46Vw;
+                                    color: #cf897a;
+                                    width: 30%;
+                                }
+                                #text {
+                                    text-indent: 5%;
+                                    p
+                                    {
+                                        margin-bottom: 1Vw;
+                                    }
+                                }
+                            }
+                            #skills-container {
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                margin-top: 20%;
+                                height: 100%;
+                                background-color: grey;
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                                .klasa-skills
+                                {
+                                    width: 24.5%;
+                                    height: 20Vw;
+                                    .skills-num
+                                    {
+                                        padding-left: 40%;
+                                        font-size: 2Vw;
+                                    }
+                                    img {
+                                        height: 15vw;
+                                        width: 80%;
+                                        margin-left: 10%;
+                                        margin-top: 10%;
+                                    }
+                                }
+                            }
+                            .heading {
+                                ul
+                                {
+                                    li
+                                    {
+                                        font-size: 1.6Vw;
+                                        margin-bottom: 15px;
+                                        margin-left: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #experience {
+                        .container
+                        {
+                            width: 90%;
+                            height: 40Vw;
+                            .text
+                            {
+                                width: 100%;
+                                height: auto;
+                                margin-bottom: 3Vw;
+                                .date
+                                {
+                                    float: right;
+                                    text-align: center;
+                                    font-size: 1.46Vw;
+                                    color: #cf897a;
+                                    width: 40%;
+                                }
+                                .heading {
+                                    width: 60%;
+                                    p
+                                    {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #skills {
+                        padding-top: 0%;
+                        width: 100%;
+                    }
+                    #hobbies {
+                        &.isto
+                        {
+                            margin-bottom: 0;
+                            border-bottom: white;
+                        }
+                    }
+                    #footer {
+                    width: 100%;
+                    height: 5.12Vw;
+                    background-color: #ffe4c4;
+                    position: relative;
+                    p
+                    {
+                        float: left;
+                        font-size: 1.46Vw;
+                        margin-top: 1.8Vw;
+                        margin-left: 1.8Vw;
+                        color: #6f2f14;
+                    }
+                    #ikonice {
+                        float: right;
+                        margin-right: 1.8Vw;
+                        margin-top: 0.73Vw;
+                        a
+                        {
+                            font-size: 2.2Vw;
+                            margin-right: 0.73Vw;
+                            color: #6f2f14;
+                        }
+                    }
+                }
+            }
+        nav {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #cf897a !important;
+            float: left;
+            position: fixed;
+            text-align: center;
+            ul
+            {
+                list-style: none;
+                li
+                {
+                    margin-bottom: 15px;
+                    img
+                    {
+                        width: 60%;
+                        border-radius: 50px 0 50px 0;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                    }
+                    a {
+                        color: #6f2f14;
+                        font-weight: 700;
+                        font-size: 1.5Vw;
+                        &:active
+                        {
+                            color: #ffe4c4 !important;
+                        }
+                        &:hover {
+                            color: #ffe4c4;
+                        }
+                    }
+                    p {
+                        color: #6f2f14;
+                        font-weight: 700;
+                        font-size: 1.5Vw;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    .cleaner {
+        clear: both;
+    }
+}

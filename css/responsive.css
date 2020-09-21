@@ -1,0 +1,123 @@
+﻿@media screen and (max-width: 800px){
+    body #sajt #belo .isto .container .text h1 {
+        text-align: center;
+    }
+    body #sajt #belo #experience .container .text h1{
+        margin-top:3%;
+    }
+}
+@media screen and (max-width: 600px) {
+    body #sajt #belo .isto .container #skills-container .klasa-skills {
+        width: 48%;
+        height: 50%;
+    }
+    body #sajt #belo .isto .container #skills-container {
+        height: 75%s;
+        margin-top: 10%;
+        background-color: grey;
+    }
+        body #sajt #belo .isto .container #skills-container .klasa-skills img {
+            height: 50px;
+            width: 60%;
+            margin: 0px auto;
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+    body #sajt #belo #skills .text {
+        text-align: center;
+    }
+    body #sajt #belo .isto .container #skills-container .klasa-skills .skills-num {
+        font-size: 3Vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    body #sajt #belo {
+        width: 100%;
+    }
+
+    body #sajt nav {
+        width: 100%;
+        position: absolute;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+       body #sajt nav img {
+            display: none;
+        }
+
+        body #sajt nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        body #sajt nav ul li a{
+            font-size:8px;
+        }
+            body #sajt nav ul li p {
+                display: none;
+            }
+    body #sajt #belo .isto .container .text .heading p{
+        font-size:10px;
+    }
+    body #sajt #belo #experience .container .text .heading {
+        height: 15px;
+        margin-bottom: 5px;
+        width: 65%;
+    }
+        body #sajt #belo #experience .container .text .heading p{
+            font-size:8px;
+        }
+        body #sajt #belo .isto .container #skills-container {
+            margin-top: 5%;
+        }
+    body #sajt #belo .isto .container #skills-container {
+        height: 130px;
+        margin-top:0px;
+        background-color: grey;
+    }
+        body #sajt #belo .isto .container #skills-container .klasa-skills img {
+            height: 45px;
+            width: 40%;
+            margin: 0px auto;
+            margin-top: 2%;
+            margin-left: 30%;
+        }
+        body #sajt #belo .isto .container #skills-container .klasa-skills .skills-num {
+            font-size: 2Vw;
+            margin-left:5%;
+        }
+    body #sajt #belo #footer #ikonice{
+        margin-top:0.3Vw;
+    }
+    body #sajt #belo #about .container{
+        width: 90%;
+        margin-top:15%;
+    }
+        body #sajt #belo .isto .container #tekst  {
+            width: 80%;
+            float:left;
+        }
+    body #sajt #belo .isto .container #slika{
+        width:20%;
+        float:right;
+    }
+        body #sajt #belo .isto .container #slika img {
+            width: 90%;
+            display: flex;
+            border-radius: 20px 0px 20px 0px;
+        }
+        body #sajt #belo #hobbies .container{
+            height:170px;
+            margin-top:20px;
+        }
+        body #sajt #belo #hobbies .container .text .heading{
+            width:100%;
+            margin-bottom:5px;
+        }
+            body #sajt #belo #hobbies .container .text .heading p{
+                font-size:8px;
+            }
+           
+}
